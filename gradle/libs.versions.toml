@@ -1,0 +1,26 @@
+[versions]
+
+kandy = "0.1.0-SNAPSHOT"
+
+kotlin = "2.3.21"
+kotest = "6.2.3"
+kotlinLogging = "8.0.4"
+
+slf4j = "2.0.18"
+
+[libraries]
+
+kandy = { module = "io.github.version-ops:kotlin-kandy", version.ref = "kandy" }
+
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
+kotlinLogging = { module = "io.github.oshai:kotlin-logging", version.ref = "kotlinLogging" }
+
+slf4jSimple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+
+[bundles]
+kotest = ["kotest-assertions-core", "kotest-runner-junit5"]
+
+[plugins]
+
