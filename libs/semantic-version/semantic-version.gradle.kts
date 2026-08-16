@@ -17,6 +17,10 @@ kotlin {
     jvmToolchain(17)
 }
 
+java {
+    withSourcesJar()
+}
+
 tasks.withType<Test>().configureEach {
     useJUnitPlatform()
 }
