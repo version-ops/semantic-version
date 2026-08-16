@@ -1,4 +1,4 @@
-rootProject.name = "update-versions-plugin"
+rootProject.name = "semantic-version"
 include(
     "libs:semantic-version",
 )
