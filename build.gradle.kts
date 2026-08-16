@@ -3,8 +3,7 @@ plugins {
 }
 
 allprojects {
-    group = "io.github.waverunner.versions"
-    version = "0.1.0-SNAPSHOT"
+    group = "io.github.version-ops"
 
     repositories {
         mavenLocal()
